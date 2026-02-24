@@ -1555,7 +1555,7 @@ async function getMessage(key){
             return msg?.message
         }
         return {
-            conversation: "My name is Silana Ai"
+            conversation: "My name is Kareem Ai"
         }
     }
 async function appenTextMessage(text, chatUpdate) {
@@ -1679,7 +1679,7 @@ let msg = {
     let daftar = {
   unreg: `\`أنت لم تسجل بعد في قاعدة البيانات. سجل فورا عن طريق الكتابة:\`
   
-- /daftar name. age\n\n قبل ان تضغط على زر تسجيل الدخول رجاء تأكد أنك مشترك في قناتي على الواتساب \n\n https://whatsapp.com/channel/0029VaX4b6J7DAWqt3Hhu01A`}[type]
+- /daftar name. age\n\n قبل ان تضغط على زر تسجيل الدخول رجاء تأكد أنك مشترك في قناتي على الواتساب \n\n https://chat.whatsapp.com/FpP5ddTkfVlGaDemBnuWjw?mode=gi_t}[type]
   
   if (daftar) return this.sendUrlImageButton(m.chat, daftar, [{name: "quick_reply", buttonParamsJson: `{"display_text": "تسجيل الدخول", "id": "@verify"}`}], wm, registrasi, fkon)
         }
